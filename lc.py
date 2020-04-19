@@ -8,4 +8,4 @@ async def on_ready():
    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="LumberCraft"))
    print('LumberCraft is Ready')
 
-client.run('NzAxMzUyMTcxODExMTEwOTIy.XpwPIQ.PKzBBi7EnpzdwODHs-ipCDvyIWk')
+client.run(os.getenv('TOKEN'))
